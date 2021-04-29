@@ -2,7 +2,7 @@
 Bot Projesine Hoşgeldin!
 =================
 
- Bu proje `Hox Corporation'a aittir.` Tüm Hakları Saklıdır.
+ Bu proje `Hox Corporation'a aittir.` Paylaşıma açıktır.
 
 [Resmi Discord Sunucumuz](https://discord.gg/snQBbU9)
 
