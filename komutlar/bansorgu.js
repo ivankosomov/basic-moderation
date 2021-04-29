@@ -5,17 +5,17 @@ const Discord = require('discord.js')
         let kullanıcı = args[0]
 
         if(!kullanıcı){
-            const cmfhata = new Discord.MessageEmbed()
+            const hoxxhata = new Discord.MessageEmbed()
             .setColor('#ff0000')
             .setDescription(`${message.author} **Lütfen sunucudan banlanan kullanıcı ID'sini gir**`)
-            return message.channel.send(cmfhata)
+            return message.channel.send(hoxxhata)
         }
 
         if(FK(kullanıcı)){
-            const cmfhata = new Discord.MessageEmbed()
+            const hoxxhata = new Discord.MessageEmbed()
             .setColor('#ff0000')
             .setDescription(`${message.author} **Lütfen sunucudan banlanan kullanıcı ID'sini gir**`)
-            return message.channel.send(cmfhata)
+            return message.channel.send(hoxxhata)
         }
 
         if(kullanıcı){
