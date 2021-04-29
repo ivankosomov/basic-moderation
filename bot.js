@@ -114,11 +114,11 @@ const settings = {
 client.on("guildMemberAdd", (message, member) => {
 
   let guvenilirlik = Date.now()-member.user.createdTimestamp < 1000*60*60*24*7;
-  let hosgeldin = (`:tada::tada: Numb #0470 Krallığına hoş geldin ${member}, seninle beraber **${member.guild.memberCount}** kişiye ulaştık.
-   Tagımızı (\`numb\`) isminize ya da etiketinize (\`#0470\`) eklerseniz kayıt odalarına girip kayıt olabilirsiniz. 
+  let hosgeldin = (`:tada::tada: Krallığa hoş geldin ${member}, seninle beraber **${member.guild.memberCount}** kişiye ulaştık.
+
   ${member} Hesabın ${member.client.tarihHesapla(member.user.createdAt)} tarihinde açılmış. Hesap ${guvenilirlik ? "Şüpheli!" : "Güvenilir!  "}
   `);
-  member.setNickname(`Mercy?`).catch();
+  member.setNickname(`Unregister`).catch();
   client.channels.cache.get(settings.kayıtchat).send(`${hosgeldin}`); 
 });
 //-------------------- Küfür Engel --------------------//
