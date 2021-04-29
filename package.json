@@ -1,0 +1,50 @@
+{
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "FK's Basement",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "chalk": "^4.1.0",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.3.1",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.2",
+    "hastebin-gen": "^2.0.5",
+    "jimp": "^0.16.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "node-superfetch": "^0.1.10",
+    "os": "^0.1.1",
+    "quick.db": "^7.1.2",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "snekfetch": "^4.0.4",
+    "steam-provider": "^0.2.0",
+    "superagent": "^6.1.0",
+    "weather-js": "^2.0.0",
+    "ffmpeg": "^0.0.4",
+    "ytdl-core": "^3.4.0",
+    "reaction-role": "^2.1.6",
+    "discord.js-commando": "^0.12.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {},
+  "author": ""
+}
