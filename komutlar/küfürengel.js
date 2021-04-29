@@ -37,7 +37,7 @@ exports.run = async (client, message, args) => {
     const kinda = new Discord.MessageEmbed()
 
       .setDescription(
-        "Lütfen **aç** Veya **kapat** Yazın. Örnek Kullanım : **.küfür-engel aç/kapat**"
+        "Lütfen **aç** Veya **kapat** Yazın. Örnek Kullanım : **küfür-engel aç/kapat**"
       )
       .setColor("RED");
     //This FK man .dd
